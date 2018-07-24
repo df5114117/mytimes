@@ -43,3 +43,12 @@ a {
 .logo span{
     color: mediumaquamarine;
 }
+
+/* Body */
+
+.content {
+  display: flex;
+  margin: 0 auto auto;
+  padding-top: 116px;
+  border: solid;
+}
