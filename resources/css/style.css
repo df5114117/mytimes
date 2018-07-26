@@ -46,9 +46,45 @@ a {
 
 /* Body */
 
+
 .content {
   display: flex;
-  margin: 0 auto auto;
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
+  border: solid
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
   border: solid;
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid;
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid;
+}
+
+.column.large {
+  width: 630px;
+  border: 1px solid;
+}
+
+.image-content{
+  border: 1px solid;
+}
+
+.story{
+  border: 2px solid;
+}
+
+.news-bites{
+  border: 1px solid;
 }
